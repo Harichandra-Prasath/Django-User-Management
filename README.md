@@ -9,6 +9,6 @@
 ### Endpoints
 - /api/accounts/register/ -- To register an account 
 - /api/accounts/login/ -- To get the custom_token
-- /api/accounts/profile/<id>/view -- To see the Profile
-- /api/accounts/profile/<id>/edit -- To edit the profile
+- /api/accounts/profile/$(pk)/view -- To see the Profile
+- /api/accounts/profile/$(pk)/edit -- To edit the profile
 - For last two endpoints Authorization header should be Bearer $(custom_token)
