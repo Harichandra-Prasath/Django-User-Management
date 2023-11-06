@@ -1,0 +1,6 @@
+django==3.2
+djangorestframework
+djongo
+firebase-admin
+pymongo==3.12.3
+django-dotenv
